@@ -1,0 +1,28 @@
+.swiper {
+  overflow: unset;
+}
+
+.swiper-pagination {
+  width: auto !important;
+  bottom: -96px !important;
+  left: 50% !important;
+  padding: 5px 24px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 100px;
+  translate: -50%;
+}
+
+.swiper-pagination-bullet-active {
+  background: #fbf6e5 !important;
+  opacity: 1 !important;
+  /* padding: 8; */
+  width: 56px !important;
+}
+
+.swiper-pagination-bullet {
+  opacity: 0.1;
+  background: #ffffff;
+  border-radius: 100px !important;
+  height: 8px;
+  width: 8px;
+}

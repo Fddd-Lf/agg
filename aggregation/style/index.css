@@ -1,0 +1,40 @@
+#__next {
+  width: 100vh;
+  min-width: 100%;
+  background: rgb(42, 41, 31);
+}
+
+body {
+  margin: 0;
+  background-color: #1a1a1a;
+  font-family: HarmonyOS_Sans_SC, sans-serif !important;
+}
+
+html {
+  /* font-size: 4px; */
+}
+::-webkit-scrollbar {
+  width: 2px;
+  position: absolute;
+}
+
+::-webkit-scrollbar-track {
+  background: #1a1a1a;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* 鼠标悬停在滚动条上时改变样式 */
+
+/*
+.slick-slide {
+  margin-right: 16px; 
+}
+
+
+.slick-slider .slick-track .slick-slide:last-child {
+  margin-right: 0;
+}
+*/

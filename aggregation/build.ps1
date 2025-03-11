@@ -1,0 +1,1 @@
+docker build -t registry.cn-shenzhen.aliyuncs.com/aiiin/aggregation:latest . && docker push registry.cn-shenzhen.aliyuncs.com/aiiin/aggregation:latest

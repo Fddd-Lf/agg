@@ -1,0 +1,160 @@
+.arco-checkbox-checked .arco-checkbox-mask {
+  background-color: #ffc14e !important; /* 选中时的背景色 */
+}
+.arco-checkbox-mask {
+  background-color: rgba(0, 0, 0, 0.9);
+  border: 1px solid #e5e5e5;
+}
+.arco-checkbox-checked .arco-checkbox-mask-icon {
+  color: #2e2e2e;
+}
+
+.arco-icon-hover.arco-checkbox-icon-hover::before {
+  width: 0;
+  height: 0;
+}
+
+.arco-input:hover {
+  border: 1px solid #ffc14e !important;
+}
+
+.arco-radio-button.arco-radio-checked {
+   border-radius: 4px;
+  background-color: #ffc14e;
+  /* font-size: 0.875rem; */
+  /* line-height: 1.25rem; */
+  color: #131313;
+}
+
+.arco-radio-button {
+  color: rgba(255, 255, 255, 0.45);
+  font-size: 0.875rem;
+  line-height: 20px;
+  padding: 0.25rem 0.9375rem;
+}
+.arco-radio-button:not(:first-of-type)::before {
+  opacity: 0;
+}
+.arco-radio-button-inner {
+  padding: 0;
+}
+.arco-radio-group-type-button {
+  border-radius: 4px;
+  background-color: #131313;
+  z-index: unset;
+  padding: 0.25rem;
+}
+.arco-radio-button:hover {
+  border-radius: 4px;
+  background-color: #ffc14e;
+}
+
+.arco-spin .arco-icon[stroke="currentColor"] {
+  color: #ffc14e;
+}
+
+.arco-dropdown-menu {
+  background-color: #3a3a3a;
+  border: 0px;
+}
+
+.arco-dropdown-menu-item {
+  color: rgba(255, 255, 255, 1);
+  padding: 0.5rem 1.5rem;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  height: auto;
+  text-align: center;
+}
+
+.arco-dropdown-menu-item:hover {
+  color: #ffc14e;
+  background-color: #3a3a3a;
+}
+
+.arco-modal {
+  background-color: #1a1a1a;
+  border-radius: 8px;
+}
+
+.arco-modal-header {
+  padding: 1rem 1.5rem;
+  border-bottom: 1px solid #3a3a3a;
+}
+
+.arco-modal-title {
+  color: rgba(255, 255, 255, 1);
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+.arco-modal-content {
+  padding: 0px;
+  color: rgba(255, 255, 255, 1);
+}
+
+.arco-modal-mask {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.arco-carousel-indicator-wrapper-bottom {
+  background: none;
+}
+
+.arco-carousel-indicator-line .arco-carousel-indicator-item {
+  width: 0.5rem;
+  height: 0.5rem;
+}
+
+.arco-carousel-indicator-item:hover,
+.arco-carousel-indicator-item-active {
+  width: 1.5rem !important;
+}
+
+/* .arco-btn {
+  padding: 0 8px;
+  font-weight: normal;
+} */
+
+
+.arco-dropdown-popup-visible .arco-icon-down {
+  transform: rotate(180deg);
+}
+
+
+.arco-dropdown-popup-visible .dropDowm {
+  transition: .3s;
+  transform: rotate(180deg);
+}
+
+.loginCarousel .arco-carousel-indicator-wrapper-bottom {
+  display: none;
+}
+
+.loginCarousel.arco-carousel {
+  overflow: hidden;
+  border-radius: 8px 0 0 8px;
+}
+.NavOption.arco-select-option {
+  text-align: center;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  padding: 0.5rem 0;
+  background-color: #3a3a3a;
+  color: rgba(255, 255, 255, 1);
+}
+
+.NavOption.arco-select-option:hover {
+  color: rgba(255, 193, 78, 1);
+}
+
+.arco-select-popup {
+  background-color: #3a3a3a;
+  border: 0;
+}
+
+.NavOption .arco-select-view input::placeholder {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  color: rgba(255, 255, 255, 0.65);
+}
